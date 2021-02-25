@@ -1,0 +1,20 @@
+Miniserv development: 
+✔ Print in web signature: the current Node version (works, using process.version) @done (21-02-25 19:15)
+✔ Define a MIME table, including also the "orig" key @done (21-02-25 19:15)
+✔ Set MIME content type using the "mimes" hash @done (21-02-25 19:27)
+☐ Day 2: let's add: STATIC FILE SUPPORT from single dir (as web server)
+☐ parametrize program, so that cli parameters can be given by server admin 
+☐ add support: --serve=<folder> server admin must specify which folder to be shared
+☐ write accept() function for eating the GET requests parameter
+☐ at first accept() only takes "/" or "/anyfile" where anyfile is a valid filename string
+☐ Day 3: Move all routes to folder references, starting from a root home folder
+☐ Day 4: We will add error handling
+☐ Handle error of non-existent request for an object
+☐ Add support for PNG images
+☐ Add support for interfacing with Node-based game backends
+
+Miniserver capability tests:
+☐ can serve a folder contents, recursively, to web on port 80
+☐ can log GET requests to internal, secure log file (not visible for public)
+☐ can log errors to internal, secure log file (not visible for public)
+☐ shows a fingerprint string in 
