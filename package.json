@@ -1,0 +1,14 @@
+{
+  "name": "miniserv",
+  "version": "0.2.0",
+  "description": "Minimal file server done with Node",
+  "main": "miniserv.js",
+  "repository": "https://github.com/jpaulin/miniserv",
+  "author": "Jukka Paulin <jukka.paulin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "sanitize-filename": "^1.6.3"
+  }
+}
